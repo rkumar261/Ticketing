@@ -4,15 +4,15 @@ deploy:
   kubectl:
     manifests:
       - ./infra/k8s/*
-build: 
+build:
   local:
     push: false
   artifacts:
-    - image: rakesh460/auth
-      context: auth 
+    - image: rallycoding/auth
+      context: auth
       docker:
         dockerfile: Dockerfile
       sync:
-        manual: 
+        manual:
           - src: "src/**/*.ts"
             dest: .

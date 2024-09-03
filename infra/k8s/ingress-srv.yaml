@@ -11,9 +11,9 @@ spec:
       http:
         paths:
           - path: /api/users/?(.*)
-            pathType: Prefix 
+            pathType: Prefix
             backend:
-              service: 
+              service:
                 name: auth-srv
                 port:
                   number: 3000

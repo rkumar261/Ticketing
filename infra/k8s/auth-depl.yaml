@@ -14,11 +14,11 @@ spec:
     spec:
       containers:
         - name: auth
-          image: rakesh460/auth
+          image: rallycoding/auth
 ---
 apiVersion: v1
-kind: Service 
-metadata: 
+kind: Service
+metadata:
   name: auth-srv
 spec:
   selector:
