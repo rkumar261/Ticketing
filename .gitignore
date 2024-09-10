@@ -1,0 +1,27 @@
+# Node modules
+/node_modules
+**/node_modules
+
+# Next.js build output
+/.next
+**/.next
+
+# Build output 
+build/
+**/build
+
+# TypeScript cache
+*.tsbuildinfo
+**/*.tsbuildinfo
+
+# IDE/Editor-specific files
+.vscode
+
+# Package manager lock files
+package-lock.json
+yarn.lock
+**/package-lock.json
+**/yarn.lock
+
+# Mongo memory server files
+**/mongodb-memory-server*
